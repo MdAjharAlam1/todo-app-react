@@ -1,0 +1,55 @@
+/* .app{
+  display: grid; 
+  grid-template-rows: 150px auto;
+} */
+.app-main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px 3%;
+
+ 
+}
+*{
+  font-family: sans-serif;
+}
+
+@media screen and (min-width:668px) and (max-width:920px) {
+  .app-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+  }
+  
+}
+@media screen and (min-width:420px) and (max-width:668px) {
+  .app-main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 0 6%;
+   
+  }
+}
+@media screen and (max-width:420px) {
+  .app-main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* padding: 0 6%; */  
+   
+  }
+  .delete-task-card{
+    width: 50px;
+    height: 50px;
+    background-color: #f9f9f9f9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,14 @@
+.main-task-container{
+    width: 80% ;
+    margin: 20px;
+}
+.task-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+}
+.task-heading > img{
+    object-fit: contain;
+    height: 30px;
+}

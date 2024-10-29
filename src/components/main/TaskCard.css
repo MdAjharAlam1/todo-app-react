@@ -1,0 +1,30 @@
+.card{
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.card-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.card-bottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-task-card{
+    width: 30px;
+    height: 30px;
+    background-color: #f9f9f9f9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delete-task-card img{
+    width: 60%;
+    opacity: 50%;
+}
